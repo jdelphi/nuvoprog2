@@ -20,6 +20,11 @@ $ nuvoprog read -t n76e003 dev.ihx
 $ nuvoprog config decode -i dev.ihx
 $ nuvoprog program -t n76e003 -c @config.json -a aprom.ihx -l ldrom.ihx
 
+
+$ nuvoprog read -t MS51FB dev.ihx
+$ nuvoprog config decode -i dev.ihx
+$ nuvoprog program -t MS51FB -c @config.json -a aprom.ihx -l ldrom.ihx
+
 ```
 
 You may also be interested in [libn76](https://github.com/erincandescent/libn76),
@@ -48,6 +53,7 @@ Coming soon:
 ## Target devices
 
  * N76E003 (8051T1 family)
+ * MS51FB (8051T1 family)
 
 # Missing functionality
 
