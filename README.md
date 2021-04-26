@@ -39,6 +39,11 @@ using `go get -u github.com/jdelphi/nuvoprog`. Ensure
 that `$GOPATH/bin` is on your path (`GOPATH` defaults to `$HOME/go`);
 alternatively, move the resulting binary to a location of your choice.
 
+# Lokale änderungen
+Bei änderungen, in das homeverzeichniss gehen, dort in go / github.com / jdelphi / novoprog.
+Zum neu erstellen, einfach mittels `go install  github.com/jdelphi/nuvoprog` neu compilieren, 
+ausgabe liegt in home/git/bin/nuvoprog.
+
 The `hidapi` and `libusb` packages are [vendored by our upstream](https://github.com/karalabe/hid)
 
 # Supported Devices
